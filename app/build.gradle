@@ -1,0 +1,142 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.25.4'
+    }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+
+def STRING = 'String'
+def BUILD_TIME = 'BUILD_TIME'
+
+apply plugin: 'io.fabric'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.tolgatastimur.moviestormandroidx"
+        minSdkVersion 26
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField STRING, BUILD_TIME, "\"${rootProject.ext.buildTime}\""
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            zipAlignEnabled true
+            shrinkResources true
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            ext.enableCrashlytics = false
+        }
+    }
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+    packagingOptions {
+        exclude 'META-INF/rxjava.properties'
+    }
+    dataBinding {
+        enabled = true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+
+    //supportLib
+    implementation "androidx.legacy:legacy-support-v4:$support_version"
+    implementation "androidx.appcompat:appcompat:$support_version"
+    implementation "com.google.android.material:material:$support_version"
+    implementation "androidx.recyclerview:recyclerview:$support_version"
+    implementation "androidx.cardview:cardview:$support_version"
+
+    //timber
+    implementation rootProject.ext.timber
+
+    //crashlytics
+    implementation(rootProject.ext.crashlytics) {
+        transitive = true;
+    }
+
+    //di
+    implementation rootProject.ext.dagger
+    kapt rootProject.ext.daggerApt
+
+    //implementation rootProject.ext.daggerSupport
+
+    //annotationProcessor rootProject.ext.daggerAnnotation
+
+    //rx
+    implementation rootProject.ext.rxJava
+    implementation rootProject.ext.rxAndroid
+    implementation rootProject.ext.rxKotlin
+
+    //net
+    implementation rootProject.ext.retrofit
+    implementation rootProject.ext.okHttp
+    implementation rootProject.ext.gson
+    implementation rootProject.ext.rxJavaAdapter
+    implementation rootProject.ext.gsonConverter
+
+    //picasso
+    implementation rootProject.ext.picasso
+
+    //coroutines
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version"
+
+    //BottomNavigation
+    implementation 'com.github.iammert:ReadableBottomBar:0.1'
+
+    // anko
+    implementation "org.jetbrains.anko:anko:$anko_version"
+    implementation "org.jetbrains.anko:anko-coroutines:$anko_version"
+
+    //arch-comp Lifecycles, LiveData, and ViewModel
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-common-java8:$lifecycle_version"
+
+    //arch-comp Room
+    implementation "androidx.room:room-runtime:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
+
+    //Paging
+    implementation "androidx.paging:paging-runtime:$paging_version"
+
+    // data binding
+    annotationProcessor 'androidx.databinding:databinding-compiler:1.0.0-beta01'
+
+    //test
+    testImplementation 'junit:junit:4.12'
+    testImplementation "androidx.arch.core:core-testing:$lifecycle_version"
+    testImplementation "androidx.room:room-testing:$room_version"
+    testImplementation "androidx.paging:paging-common:$paging_version"
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0-alpha4', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+        exclude group: 'com.google.code.findbugs'
+    })
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+}
+repositories {
+    mavenCentral()
+}

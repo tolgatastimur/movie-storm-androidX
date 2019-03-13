@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.iammert:ReadableBottomBar:0.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-ReadableBottomBar-0.1.aar/b743062b461b96775c1537a19e33a4ef/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-ReadableBottomBar-0.1.aar/b743062b461b96775c1537a19e33a4ef/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.iammert/ReadableBottomBar/0.1/372325592ab536425e621dd68268c75e7638b813/ReadableBottomBar-0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

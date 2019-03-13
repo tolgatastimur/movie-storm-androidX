@@ -1,0 +1,303 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:2:1-36:12
+MERGED from [androidx.databinding:databinding-adapters:3.3.2] /Users/kuka/.gradle/caches/transforms-1/files-1.1/databinding-adapters-3.3.2.aar/832c0fcdc5af9c5cf8274f09dd909f52/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:3.3.2] /Users/kuka/.gradle/caches/transforms-1/files-1.1/databinding-runtime-3.3.2.aar/2e887da691227a0e7576b11a5cd5de90/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc02] /Users/kuka/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0-rc02.aar/b6df9a6826ab76c21d78fcd50fb804c9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.iammert:ReadableBottomBar:0.1] /Users/kuka/.gradle/caches/transforms-1/files-1.1/jetified-ReadableBottomBar-0.1.aar/b743062b461b96775c1537a19e33a4ef/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.0.0-rc02] /Users/kuka/.gradle/caches/transforms-1/files-1.1/material-1.0.0-rc02.aar/05e96e83e382e9497ddebb7b24b21f61/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/7a060045b242c9ab6cb358d1465e389a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.paging:paging-runtime:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/paging-runtime-2.0.0-beta01.aar/7cdab254e51c09e97a0082bab515bcf4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0-rc02] /Users/kuka/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0-rc02.aar/616b43433947bdf86d02bda76193f5c9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0-rc02] /Users/kuka/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0-rc02.aar/403618d03d4baf60f952975f3bc0b75e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton.timber:timber:4.7.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/jetified-timber-4.7.0.aar/7094c3f03cd049882629e5998ea88d53/AndroidManifest.xml:2:1-9:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /Users/kuka/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/63db75e537cb050823f4a7377e0554a7/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.dagger:dagger-android:2.15] /Users/kuka/.gradle/caches/transforms-1/files-1.1/jetified-dagger-android-2.15.aar/a5958bf543def561d74fc3aa476a6374/AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/kuka/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/54fda7ac7a2e1057d60bb2b906370758/AndroidManifest.xml:15:1-21:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/kuka/.gradle/caches/transforms-1/files-1.1/jetified-picasso-2.71828.aar/76652173c856532d7adb77a50502d312/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-extensions-2.0.0-beta01.aar/674eddfe9b42eb4185b04b8d773eee87/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.room:room-runtime:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/room-runtime-2.0.0-beta01.aar/5752f1195813f8c62dfb786e31d55f20/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0-beta01.aar/82d9e9fcbad1c27a482939045090c8be/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-service-2.0.0-beta01.aar/c22edd63582380ea1f53a74237e6e9ac/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0-rc02] /Users/kuka/.gradle/caches/transforms-1/files-1.1/media-1.0.0-rc02.aar/e2caf8f7efddc9c354fd5740ddc9644d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0-rc02] /Users/kuka/.gradle/caches/transforms-1/files-1.1/transition-1.0.0-rc02.aar/80c202f4d8cfeb8816bcac14c6e62729/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/d71ce8af0c9f2d027547ae8a15bfe40e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/0f76e69ab5dca3383c42986e34db06cb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/b0765437e36fe077e8af1da17299b3a5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/70e6572665afb2f41c3fedc9a5fe987d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/9330e57e065afe05e5656d96ccdf373f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/1624e8a01cbb1a09e9e45d8223902af3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/8e0d7159980af9ca26bcafe778ef798d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/f55959d58d9f817d7b48d2c171821146/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/2f0bbdb494e49c725d66799b0db0a9cc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/9d24d58c0031b3dc7646865b2c6be3e4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/4f57ce0a54e1a0269401b1a911c41efc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/b81cc5d0a843d8b7fbef7eacd80ba2dd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/14e9643ccad1fcdba39d8a8ddaf6a0e1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/00db724cbc79b61e6c7c1cb054304544/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/8d9acf4f04be1d3c61c2b463b51ee4cc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/e523c93d85d51af26798a31f6706be28/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/exifinterface-1.0.0.aar/c87a8f4518619281bc93121ce7aea9b2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/sqlite-framework-2.0.0-beta01.aar/10e712f6f8867a9b4ed58a9f1b3e5646/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/sqlite-2.0.0-beta01.aar/ee52977a2670f4754a85443039673a9f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/00d491202b89adf93af23d63033f8fc2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/2b6f354412f48b7ad334f6de7fbc4065/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/7a8f9e27e4965bdac6491e1973d3f032/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/2419dc8e7a0d0a382244d42d8fac3ab1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/648cbfb9d919158e6d819564733e7d5d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/4c5fe6f264449ccb16590e33d0f19589/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/1f6365b906d87b7953c78a7f1036af9b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/7aefe0a0e5d02264609cd0e3cff418fb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/a0ec870edf28cb1b123db5938a9ed176/AndroidManifest.xml:17:1-22:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] /Users/kuka/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.3.aar/7ee8e9598f5871a137d30fa1524e4f50/AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.9] /Users/kuka/.gradle/caches/transforms-1/files-1.1/beta-1.2.9.aar/494b6698e8ec99081f781635601bea42/AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] /Users/kuka/.gradle/caches/transforms-1/files-1.1/jetified-answers-1.4.2.aar/65dfc74ba9cb89dd341923d5d8fae60a/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] /Users/kuka/.gradle/caches/transforms-1/files-1.1/fabric-1.4.3.aar/01083203f6566898af1be2ab4c406473/AndroidManifest.xml:22:1-33:12
+INJECTED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:2:1-36:12
+	package
+		ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:2:1-36:12
+		INJECTED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:2:1-36:12
+		INJECTED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:5:5-34:19
+MERGED from [com.google.android.material:material:1.0.0-rc02] /Users/kuka/.gradle/caches/transforms-1/files-1.1/material-1.0.0-rc02.aar/05e96e83e382e9497ddebb7b24b21f61/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0-rc02] /Users/kuka/.gradle/caches/transforms-1/files-1.1/material-1.0.0-rc02.aar/05e96e83e382e9497ddebb7b24b21f61/AndroidManifest.xml:22:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/jetified-timber-4.7.0.aar/7094c3f03cd049882629e5998ea88d53/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/jetified-timber-4.7.0.aar/7094c3f03cd049882629e5998ea88d53/AndroidManifest.xml:7:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /Users/kuka/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/63db75e537cb050823f4a7377e0554a7/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /Users/kuka/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/63db75e537cb050823f4a7377e0554a7/AndroidManifest.xml:11:5-17:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/kuka/.gradle/caches/transforms-1/files-1.1/jetified-picasso-2.71828.aar/76652173c856532d7adb77a50502d312/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/kuka/.gradle/caches/transforms-1/files-1.1/jetified-picasso-2.71828.aar/76652173c856532d7adb77a50502d312/AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-extensions-2.0.0-beta01.aar/674eddfe9b42eb4185b04b8d773eee87/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-extensions-2.0.0-beta01.aar/674eddfe9b42eb4185b04b8d773eee87/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0-beta01.aar/82d9e9fcbad1c27a482939045090c8be/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0-beta01.aar/82d9e9fcbad1c27a482939045090c8be/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.core:core:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/00db724cbc79b61e6c7c1cb054304544/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/00db724cbc79b61e6c7c1cb054304544/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/e523c93d85d51af26798a31f6706be28/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/e523c93d85d51af26798a31f6706be28/AndroidManifest.xml:22:5-23:19
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] /Users/kuka/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.3.aar/7ee8e9598f5871a137d30fa1524e4f50/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] /Users/kuka/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.3.aar/7ee8e9598f5871a137d30fa1524e4f50/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.9] /Users/kuka/.gradle/caches/transforms-1/files-1.1/beta-1.2.9.aar/494b6698e8ec99081f781635601bea42/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.9] /Users/kuka/.gradle/caches/transforms-1/files-1.1/beta-1.2.9.aar/494b6698e8ec99081f781635601bea42/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] /Users/kuka/.gradle/caches/transforms-1/files-1.1/jetified-answers-1.4.2.aar/65dfc74ba9cb89dd341923d5d8fae60a/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] /Users/kuka/.gradle/caches/transforms-1/files-1.1/jetified-answers-1.4.2.aar/65dfc74ba9cb89dd341923d5d8fae60a/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] /Users/kuka/.gradle/caches/transforms-1/files-1.1/fabric-1.4.3.aar/01083203f6566898af1be2ab4c406473/AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] /Users/kuka/.gradle/caches/transforms-1/files-1.1/fabric-1.4.3.aar/01083203f6566898af1be2ab4c406473/AndroidManifest.xml:31:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/00db724cbc79b61e6c7c1cb054304544/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:9:9-41
+	android:icon
+		ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:11:9-40
+	android:name
+		ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:6:9-28
+activity#com.tolgatastimur.moviestormandroidx.ui.main.MainActivity
+ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:13:9-17:20
+	android:label
+		ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:15:13-45
+	android:theme
+		ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:16:13-56
+	android:name
+		ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:14:13-49
+activity#com.tolgatastimur.moviestormandroidx.ui.splash.SplashActivity
+ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:18:9-25:20
+	android:theme
+		ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:19:13-42
+	android:name
+		ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:18:19-59
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:23:27-74
+meta-data#io.fabric.ApiKey
+ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:30:9-32:33
+	android:value
+		ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:32:13-29
+	android:name
+		ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml:31:13-44
+uses-sdk
+INJECTED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml
+INJECTED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:3.3.2] /Users/kuka/.gradle/caches/transforms-1/files-1.1/databinding-adapters-3.3.2.aar/832c0fcdc5af9c5cf8274f09dd909f52/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:3.3.2] /Users/kuka/.gradle/caches/transforms-1/files-1.1/databinding-adapters-3.3.2.aar/832c0fcdc5af9c5cf8274f09dd909f52/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.3.2] /Users/kuka/.gradle/caches/transforms-1/files-1.1/databinding-runtime-3.3.2.aar/2e887da691227a0e7576b11a5cd5de90/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.3.2] /Users/kuka/.gradle/caches/transforms-1/files-1.1/databinding-runtime-3.3.2.aar/2e887da691227a0e7576b11a5cd5de90/AndroidManifest.xml:22:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc02] /Users/kuka/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0-rc02.aar/b6df9a6826ab76c21d78fcd50fb804c9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc02] /Users/kuka/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0-rc02.aar/b6df9a6826ab76c21d78fcd50fb804c9/AndroidManifest.xml:20:5-44
+MERGED from [com.github.iammert:ReadableBottomBar:0.1] /Users/kuka/.gradle/caches/transforms-1/files-1.1/jetified-ReadableBottomBar-0.1.aar/b743062b461b96775c1537a19e33a4ef/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.iammert:ReadableBottomBar:0.1] /Users/kuka/.gradle/caches/transforms-1/files-1.1/jetified-ReadableBottomBar-0.1.aar/b743062b461b96775c1537a19e33a4ef/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.0.0-rc02] /Users/kuka/.gradle/caches/transforms-1/files-1.1/material-1.0.0-rc02.aar/05e96e83e382e9497ddebb7b24b21f61/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0-rc02] /Users/kuka/.gradle/caches/transforms-1/files-1.1/material-1.0.0-rc02.aar/05e96e83e382e9497ddebb7b24b21f61/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/7a060045b242c9ab6cb358d1465e389a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/7a060045b242c9ab6cb358d1465e389a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.paging:paging-runtime:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/paging-runtime-2.0.0-beta01.aar/7cdab254e51c09e97a0082bab515bcf4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.paging:paging-runtime:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/paging-runtime-2.0.0-beta01.aar/7cdab254e51c09e97a0082bab515bcf4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0-rc02] /Users/kuka/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0-rc02.aar/616b43433947bdf86d02bda76193f5c9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0-rc02] /Users/kuka/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0-rc02.aar/616b43433947bdf86d02bda76193f5c9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0-rc02] /Users/kuka/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0-rc02.aar/403618d03d4baf60f952975f3bc0b75e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0-rc02] /Users/kuka/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0-rc02.aar/403618d03d4baf60f952975f3bc0b75e/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.timber:timber:4.7.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/jetified-timber-4.7.0.aar/7094c3f03cd049882629e5998ea88d53/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/jetified-timber-4.7.0.aar/7094c3f03cd049882629e5998ea88d53/AndroidManifest.xml:5:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /Users/kuka/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/63db75e537cb050823f4a7377e0554a7/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /Users/kuka/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/63db75e537cb050823f4a7377e0554a7/AndroidManifest.xml:7:5-43
+MERGED from [com.google.dagger:dagger-android:2.15] /Users/kuka/.gradle/caches/transforms-1/files-1.1/jetified-dagger-android-2.15.aar/a5958bf543def561d74fc3aa476a6374/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android:2.15] /Users/kuka/.gradle/caches/transforms-1/files-1.1/jetified-dagger-android-2.15.aar/a5958bf543def561d74fc3aa476a6374/AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/kuka/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/54fda7ac7a2e1057d60bb2b906370758/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/kuka/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/54fda7ac7a2e1057d60bb2b906370758/AndroidManifest.xml:19:5-43
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/kuka/.gradle/caches/transforms-1/files-1.1/jetified-picasso-2.71828.aar/76652173c856532d7adb77a50502d312/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/kuka/.gradle/caches/transforms-1/files-1.1/jetified-picasso-2.71828.aar/76652173c856532d7adb77a50502d312/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-extensions-2.0.0-beta01.aar/674eddfe9b42eb4185b04b8d773eee87/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-extensions-2.0.0-beta01.aar/674eddfe9b42eb4185b04b8d773eee87/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/room-runtime-2.0.0-beta01.aar/5752f1195813f8c62dfb786e31d55f20/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/room-runtime-2.0.0-beta01.aar/5752f1195813f8c62dfb786e31d55f20/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0-beta01.aar/82d9e9fcbad1c27a482939045090c8be/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0-beta01.aar/82d9e9fcbad1c27a482939045090c8be/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-service-2.0.0-beta01.aar/c22edd63582380ea1f53a74237e6e9ac/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-service-2.0.0-beta01.aar/c22edd63582380ea1f53a74237e6e9ac/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0-rc02] /Users/kuka/.gradle/caches/transforms-1/files-1.1/media-1.0.0-rc02.aar/e2caf8f7efddc9c354fd5740ddc9644d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0-rc02] /Users/kuka/.gradle/caches/transforms-1/files-1.1/media-1.0.0-rc02.aar/e2caf8f7efddc9c354fd5740ddc9644d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0-rc02] /Users/kuka/.gradle/caches/transforms-1/files-1.1/transition-1.0.0-rc02.aar/80c202f4d8cfeb8816bcac14c6e62729/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0-rc02] /Users/kuka/.gradle/caches/transforms-1/files-1.1/transition-1.0.0-rc02.aar/80c202f4d8cfeb8816bcac14c6e62729/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/d71ce8af0c9f2d027547ae8a15bfe40e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/d71ce8af0c9f2d027547ae8a15bfe40e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/0f76e69ab5dca3383c42986e34db06cb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/0f76e69ab5dca3383c42986e34db06cb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/b0765437e36fe077e8af1da17299b3a5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/b0765437e36fe077e8af1da17299b3a5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/70e6572665afb2f41c3fedc9a5fe987d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/70e6572665afb2f41c3fedc9a5fe987d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/9330e57e065afe05e5656d96ccdf373f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/9330e57e065afe05e5656d96ccdf373f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/1624e8a01cbb1a09e9e45d8223902af3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/1624e8a01cbb1a09e9e45d8223902af3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/8e0d7159980af9ca26bcafe778ef798d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/8e0d7159980af9ca26bcafe778ef798d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/f55959d58d9f817d7b48d2c171821146/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/f55959d58d9f817d7b48d2c171821146/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/2f0bbdb494e49c725d66799b0db0a9cc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/2f0bbdb494e49c725d66799b0db0a9cc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/9d24d58c0031b3dc7646865b2c6be3e4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/9d24d58c0031b3dc7646865b2c6be3e4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/4f57ce0a54e1a0269401b1a911c41efc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/4f57ce0a54e1a0269401b1a911c41efc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/b81cc5d0a843d8b7fbef7eacd80ba2dd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/b81cc5d0a843d8b7fbef7eacd80ba2dd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/14e9643ccad1fcdba39d8a8ddaf6a0e1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/14e9643ccad1fcdba39d8a8ddaf6a0e1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/00db724cbc79b61e6c7c1cb054304544/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/00db724cbc79b61e6c7c1cb054304544/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/8d9acf4f04be1d3c61c2b463b51ee4cc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/8d9acf4f04be1d3c61c2b463b51ee4cc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/e523c93d85d51af26798a31f6706be28/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/e523c93d85d51af26798a31f6706be28/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/exifinterface-1.0.0.aar/c87a8f4518619281bc93121ce7aea9b2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/exifinterface-1.0.0.aar/c87a8f4518619281bc93121ce7aea9b2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/sqlite-framework-2.0.0-beta01.aar/10e712f6f8867a9b4ed58a9f1b3e5646/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/sqlite-framework-2.0.0-beta01.aar/10e712f6f8867a9b4ed58a9f1b3e5646/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/sqlite-2.0.0-beta01.aar/ee52977a2670f4754a85443039673a9f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/sqlite-2.0.0-beta01.aar/ee52977a2670f4754a85443039673a9f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/00d491202b89adf93af23d63033f8fc2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/00d491202b89adf93af23d63033f8fc2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/2b6f354412f48b7ad334f6de7fbc4065/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/2b6f354412f48b7ad334f6de7fbc4065/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/7a8f9e27e4965bdac6491e1973d3f032/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/7a8f9e27e4965bdac6491e1973d3f032/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/2419dc8e7a0d0a382244d42d8fac3ab1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/2419dc8e7a0d0a382244d42d8fac3ab1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/648cbfb9d919158e6d819564733e7d5d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/648cbfb9d919158e6d819564733e7d5d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/4c5fe6f264449ccb16590e33d0f19589/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/4c5fe6f264449ccb16590e33d0f19589/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/1f6365b906d87b7953c78a7f1036af9b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/1f6365b906d87b7953c78a7f1036af9b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/7aefe0a0e5d02264609cd0e3cff418fb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/7aefe0a0e5d02264609cd0e3cff418fb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/a0ec870edf28cb1b123db5938a9ed176/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kuka/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/a0ec870edf28cb1b123db5938a9ed176/AndroidManifest.xml:20:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] /Users/kuka/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.3.aar/7ee8e9598f5871a137d30fa1524e4f50/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] /Users/kuka/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.3.aar/7ee8e9598f5871a137d30fa1524e4f50/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.9] /Users/kuka/.gradle/caches/transforms-1/files-1.1/beta-1.2.9.aar/494b6698e8ec99081f781635601bea42/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.9] /Users/kuka/.gradle/caches/transforms-1/files-1.1/beta-1.2.9.aar/494b6698e8ec99081f781635601bea42/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] /Users/kuka/.gradle/caches/transforms-1/files-1.1/jetified-answers-1.4.2.aar/65dfc74ba9cb89dd341923d5d8fae60a/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] /Users/kuka/.gradle/caches/transforms-1/files-1.1/jetified-answers-1.4.2.aar/65dfc74ba9cb89dd341923d5d8fae60a/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] /Users/kuka/.gradle/caches/transforms-1/files-1.1/fabric-1.4.3.aar/01083203f6566898af1be2ab4c406473/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] /Users/kuka/.gradle/caches/transforms-1/files-1.1/fabric-1.4.3.aar/01083203f6566898af1be2ab4c406473/AndroidManifest.xml:27:5-43
+INJECTED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml
+INJECTED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kuka/movie-storm-androidX/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /Users/kuka/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/63db75e537cb050823f4a7377e0554a7/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] /Users/kuka/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.3.aar/7ee8e9598f5871a137d30fa1524e4f50/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] /Users/kuka/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.3.aar/7ee8e9598f5871a137d30fa1524e4f50/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.9] /Users/kuka/.gradle/caches/transforms-1/files-1.1/beta-1.2.9.aar/494b6698e8ec99081f781635601bea42/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.9] /Users/kuka/.gradle/caches/transforms-1/files-1.1/beta-1.2.9.aar/494b6698e8ec99081f781635601bea42/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] /Users/kuka/.gradle/caches/transforms-1/files-1.1/jetified-answers-1.4.2.aar/65dfc74ba9cb89dd341923d5d8fae60a/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] /Users/kuka/.gradle/caches/transforms-1/files-1.1/jetified-answers-1.4.2.aar/65dfc74ba9cb89dd341923d5d8fae60a/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] /Users/kuka/.gradle/caches/transforms-1/files-1.1/fabric-1.4.3.aar/01083203f6566898af1be2ab4c406473/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] /Users/kuka/.gradle/caches/transforms-1/files-1.1/fabric-1.4.3.aar/01083203f6566898af1be2ab4c406473/AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /Users/kuka/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/63db75e537cb050823f4a7377e0554a7/AndroidManifest.xml:9:22-64
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /Users/kuka/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/63db75e537cb050823f4a7377e0554a7/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /Users/kuka/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/63db75e537cb050823f4a7377e0554a7/AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /Users/kuka/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/63db75e537cb050823f4a7377e0554a7/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /Users/kuka/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/63db75e537cb050823f4a7377e0554a7/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /Users/kuka/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/63db75e537cb050823f4a7377e0554a7/AndroidManifest.xml:13:13-75
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/kuka/.gradle/caches/transforms-1/files-1.1/jetified-picasso-2.71828.aar/76652173c856532d7adb77a50502d312/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/kuka/.gradle/caches/transforms-1/files-1.1/jetified-picasso-2.71828.aar/76652173c856532d7adb77a50502d312/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/kuka/.gradle/caches/transforms-1/files-1.1/jetified-picasso-2.71828.aar/76652173c856532d7adb77a50502d312/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/kuka/.gradle/caches/transforms-1/files-1.1/jetified-picasso-2.71828.aar/76652173c856532d7adb77a50502d312/AndroidManifest.xml:9:13-64
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0-beta01.aar/82d9e9fcbad1c27a482939045090c8be/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0-beta01.aar/82d9e9fcbad1c27a482939045090c8be/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0-beta01.aar/82d9e9fcbad1c27a482939045090c8be/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0-beta01.aar/82d9e9fcbad1c27a482939045090c8be/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] /Users/kuka/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0-beta01.aar/82d9e9fcbad1c27a482939045090c8be/AndroidManifest.xml:24:13-79

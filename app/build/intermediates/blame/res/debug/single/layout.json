@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/kuka/movie-storm-androidX/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_movies.xml",
+        "source": "/Users/kuka/movie-storm-androidX/app/src/main/res/layout/fragment_movies.xml"
+    },
+    {
+        "merged": "/Users/kuka/movie-storm-androidX/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_in_theater.xml",
+        "source": "/Users/kuka/movie-storm-androidX/app/src/main/res/layout/fragment_in_theater.xml"
+    },
+    {
+        "merged": "/Users/kuka/movie-storm-androidX/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/kuka/movie-storm-androidX/app/src/main/res/layout/activity_main.xml"
+    }
+]

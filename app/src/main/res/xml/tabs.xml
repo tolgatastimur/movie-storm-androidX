@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs xmlns:android="http://schemas.android.com/apk/res/android">
+    <tab
+        android:id="@+id/tab_list"
+        drawable="@drawable/ic_list"
+        text="@string/vizyon" />
+
+    <tab
+        android:id="@+id/tab_popular"
+        drawable="@drawable/ic_popular"
+        text="@string/popular" />
+
+    <tab
+        android:id="@+id/tab_movies"
+        drawable="@drawable/ic_movies"
+        text="@string/movies"  />
+
+    <tab
+        android:id="@+id/tab_watch_list"
+        drawable="@drawable/ic_watch_list"
+        text="@string/watch_list" />
+
+</tabs>

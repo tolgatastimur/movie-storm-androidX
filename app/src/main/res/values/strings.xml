@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Y</string>
+    <string name="position" translatable="false">position</string>
+    <string name="title">Title</string>
+    <string name="vizyon">Vizyon</string>
+    <string name="popular">Popüler</string>
+    <string name="movies">Filmler</string>
+    <string name="watch_list">Listem</string>
+    <string name="search">Arama</string>
+</resources>

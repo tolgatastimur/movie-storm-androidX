@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.tolgatastimur.moviestormandroidx.ui.main.MainActivityViewModel" />
+    </data>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/bottom_bar" />
+
+        <com.iammert.library.readablebottombar.ReadableBottomBar
+            android:id="@+id/bottom_bar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_alignParentBottom="true"
+            app:rbb_backgroundColor="@color/stormBottom"
+            app:rbb_indicatorColor="@color/stormLine"
+            app:rbb_tabs="@xml/tabs"
+            app:rbb_textColor="@color/white"/>
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="asdadasdad" />
+    </RelativeLayout>
+</layout>
